@@ -217,3 +217,96 @@ table {
 .second-item-description {
   margin-bottom: 30px;
 }
+.thirst-section {
+background-color: #EBF3F5;
+}
+.thirst-section .container {
+ padding-bottom: 150px;
+ padding-top: 150px;
+ display: flex;
+ gap: 150px;
+}
+.thirst-section .block-left {
+ display: flex;
+flex-direction: column;
+}
+
+.block-left {
+
+}
+.thirst-section-uptitle {
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 15px;
+line-height: 154%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #5c8692;
+margin-bottom: 9px;
+}
+.thirst-section-title {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: #141414;
+margin-bottom: 16px;
+}
+.thirst-section-description {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+color: #555;
+margin-bottom: 37px;
+}
+.thirst-section-list {
+display: flex;
+gap: 10px;
+}
+.thirst-section-list-item {
+  display: flex;
+border: 1px solid #1e2c30;
+padding: 21px 11px;
+width: 165px;
+height: 180px;
+background-color: #fff;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.thirst-section-icon {
+margin-bottom: 14px;
+}
+.thirst-section-item-text {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+text-align: center;
+color: #141414;
+}
+.thirst-section .block-right {
+position: relative;
+}
+.block-right {
+   
+}
+.thirst-section-img {
+width: 505px;
+height: 576px;
+display: block;
+z-index: 1;
+position: relative;
+}
+.thirst-section .block-right::before {
+  content: "";
+   width: 505px;
+height: 576px;
+background-color: #84A8B2;
+display: block;
+position: absolute;
+top: -38px;
+right: -48px;
+}
