@@ -4,28 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <div class="container">
-        <nav>
-          <a href="./index.html">Beautyness</a>
-          <a href="tel:+221234567890">Call Us - (+22) 123 456 7890 </a>
-          <ul>
-            <li><a href="#"></a>Home</li>
-            <li><a href="#"></a>Pages</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Services</li>
-            <li><a href="#"></a>Contact</li>
-          </ul>
-          <ul>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">Instagram</a></li>
-          </ul>
-          <button type="button">Reservation</button>
-        </nav>
-      </div>
+    <header class="header">
+      <nav class="container">
+        <a class="header-logo py-38" href="./index.html">
+          <svg class="header-logo-icon" width="191" height="35">
+            <use href="./images/icon.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <a class="py-38" href="tel:+221234567890">
+          <svg class="header-tel-icon" width="21" height="21">
+            <use href="./images/icon.svg#icon-telefon"></use>
+          </svg>
+          Call Us - (+22) 123 456 7890
+        </a>
+        <ul class="header-list">
+          <li class="header-list-item">
+            <a class="header-list-link py-38" href="#">Home</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-list-link py-38" href="#"
+              >Pages
+              <svg class="icon-arrow" width="16" height="16">
+                <use href="./images/icon.svg#icon-arrow"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-list-link py-38" href="#">About</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-list-link py-38" href="#">Services</a>
+          </li>
+          <li class="header-list-item">
+            <a class="header-list-link py-38" href="#">Contact</a>
+          </li>
+        </ul>
+        <ul class="header-socials">
+          <li class="header-socials-item">
+            <a class="py-38" href="facebook.com">
+              <svg class="social-icon" width="10" height="19">
+                <use href="./images/icon.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-socials-item">
+            <a class="py-38" href="x.com">
+              <svg class="social-icon" width="16" height="19">
+                <use href="./images/icon.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-socials-item">
+            <a class="py-38" href="intagram.com">
+              <svg class="social-icon" width="14" height="19">
+                <use href="./images/icon.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="header-button" type="button">
+          <svg class="reservation-icon" width="14" height="15">
+            <use href="./images/icon.svg#icon-reservation"></use>
+          </svg>
+          Reservation
+        </button>
+      </nav>
     </header>
     <main>
       <section>
@@ -43,38 +90,119 @@
           />
         </div>
       </section>
-      <section>
-        <h2 hidden>Our benefits</h2>
+      <section class="second-section">
+        <h2 class="visually-hidden">Our benefits</h2>
         <div class="container">
-          <ul>
-            <li>
-              <img src="./images/Photo7.jpg" alt="Spa and massage" />
-              <h3>Spa and massage</h3>
-              <p>
+          <ul class="second-section-list">
+            <li class="second-section-item">
+              <img
+                class="second-section-image"
+                src="./images/Photo7.jpg"
+                alt="Spa and massage"
+              />
+              <h3 class="second-item-heading">Spa and massage</h3>
+              <p class="second-item-description">
                 If you are going to use a passage offer Lorem Ipsum, you need to
                 be sure hidden in the middle of text.
               </p>
-              <a href="#">Read More</a>
+              <a class="second-item-link" href="#">Read More</a>
             </li>
-            <li>
-              <img src="./images/Photo1.jpg" alt="Hair and beauty" />
-              <h3>Hair and beauty</h3>
-              <p>
+            <li class="second-section-item">
+              <img
+                class="second-section-image"
+                src="./images/Photo1.jpg"
+                alt="Hair and beauty"
+              />
+              <h3 class="second-item-heading">Hair and beauty</h3>
+              <p class="second-item-description">
                 If you are going to use a passage offer Lorem Ipsum, you need to
                 be sure hidden in the middle of text.
               </p>
-              <a href="#">Read More</a>
+              <a class="second-item-link" href="#">Read More</a>
             </li>
-            <li>
-              <img src="./images/Photo2.jpg" alt="Body treatmins" />
-              <h3>Body treatmins</h3>
-              <p>
+            <li class="second-section-item">
+              <img
+                class="second-section-image"
+                src="./images/Photo2.jpg"
+                alt="Body treatmins"
+              />
+              <h3 class="second-item-heading">Body treatmins</h3>
+              <p class="second-item-description">
                 If you are going to use a passage offer Lorem Ipsum, you need to
                 be sure hidden in the middle of text.
-                <a href="#">Read More</a>
               </p>
+              <a class="second-item-link" href="#">Read More</a>
+            </li>
+            <li class="second-section-item">
+              <img
+                class="second-section-image"
+                src="./images/Photo2.jpg"
+                alt="Body treatmins"
+              />
+              <h3 class="second-item-heading">Body treatmins</h3>
+              <p class="second-item-description">
+                If you are going to use a passage offer Lorem Ipsum, you need to
+                be sure hidden in the middle of text.
+              </p>
+              <a class="second-item-link" href="#">Read More</a>
+            </li>
+            <li class="second-section-item">
+              <img
+                class="second-section-image"
+                src="./images/Photo2.jpg"
+                alt="Body treatmins"
+              />
+              <h3 class="second-item-heading">Body treatmins</h3>
+              <p class="second-item-description">
+                If you are going to use a passage offer Lorem Ipsum, you need to
+                be sure hidden in the middle of text.
+              </p>
+              <a class="second-item-link" href="#">Read More</a>
             </li>
           </ul>
+        </div>
+      </section>
+      <section class="thirst-section">
+        <div class="container">
+          <div class="block-left">
+            <p class="thirst-section-uptitle">About us</p>
+            <h2 class="thirst-section-title">The Beauty is about being Comfortable in your own skin!</h2>
+            <p class="thirst-section-description">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, buying to
+              injected humour, or randomised words which don't look even many
+              desktop publishing packages.
+            </p>
+            <ul class="thirst-section-list">
+              <li class="thirst-section-list-item">
+                <svg class="thirst-section-icon" width="49" height="72">
+                  <use href="./images/icon.svg#icon-beauty-experts"></use>
+                </svg>
+                <p class="thirst-section-item-text">Beauty Experts</p>
+              </li>
+              <li class="thirst-section-list-item">
+                <svg class="thirst-section-icon" width="49" height="72">
+                  <use href="./images/icon.svg#icon-great-services"></use>
+                </svg>
+                <p class="thirst-section-item-text">Great Services</p>
+              </li>
+              <li class="thirst-section-list-item">
+                <svg class="thirst-section-icon" width="49" height="72">
+                  <use href="./images/icon.svg#icon-genuine"></use>
+                </svg>
+                <p class="thirst-section-item-text">100% Genuine</p>
+              </li>
+            </ul>
+          </div>
+          <div class="block-right">
+            <img class="thirst-section-img"
+              alt="The Beauty is about 
+being Comfortable
+in your own skin!"
+              src="./images/Photo3.jpg"
+              width="545"
+            />
+          </div>
         </div>
       </section>
     </main>

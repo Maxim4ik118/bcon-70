@@ -1,0 +1,312 @@
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end reset */
+
+/* common styles */
+.py-38 {
+  padding: 38px 0;
+}
+
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* end common styles */
+
+.header .container {
+  display: flex;
+  width: 1830px;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 46px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: auto;
+  margin-right: 32px;
+}
+
+.header-list-item {
+  display: flex;
+}
+
+.header-list-link {
+  padding: 38px 0;
+}
+
+.header-socials {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 32px;
+}
+
+.header-socials-item {
+  display: flex;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.second-section {
+  padding: 150px 0;
+}
+
+.second-section-list {
+  display: flex;
+  gap: 105px;
+  flex-wrap: wrap;
+}
+
+.second-section-item {
+  display: flex;
+  flex-direction: column;
+  max-width: calc((100% - 2 * 105px) / 3);
+}
+
+.second-section-image {
+  margin-bottom: 26px;
+}
+
+.second-item-heading {
+  margin-bottom: 11px;
+}
+
+.second-item-description {
+  margin-bottom: 30px;
+}
+.thirst-section {
+background-color: #EBF3F5;
+}
+.thirst-section .container {
+ padding-bottom: 150px;
+ padding-top: 150px;
+ display: flex;
+ gap: 150px;
+}
+.thirst-section .block-left {
+ display: flex;
+flex-direction: column;
+}
+
+.block-left {
+
+}
+.thirst-section-uptitle {
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 15px;
+line-height: 154%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #5c8692;
+margin-bottom: 9px;
+}
+.thirst-section-title {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: #141414;
+margin-bottom: 16px;
+}
+.thirst-section-description {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+color: #555;
+margin-bottom: 37px;
+}
+.thirst-section-list {
+display: flex;
+gap: 10px;
+}
+.thirst-section-list-item {
+  display: flex;
+border: 1px solid #1e2c30;
+padding: 21px 11px;
+width: 165px;
+height: 180px;
+background-color: #fff;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.thirst-section-icon {
+margin-bottom: 14px;
+}
+.thirst-section-item-text {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 22px;
+line-height: 120%;
+text-align: center;
+color: #141414;
+}
+.thirst-section .block-right {
+position: relative;
+}
+.block-right {
+   
+}
+.thirst-section-img {
+width: 505px;
+height: 576px;
+display: block;
+z-index: 1;
+position: relative;
+}
+.thirst-section .block-right::before {
+  content: "";
+   width: 505px;
+height: 576px;
+background-color: #84A8B2;
+display: block;
+position: absolute;
+top: -38px;
+right: -48px;
+}
